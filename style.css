@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* word-spacing: 1px; */
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+/* add_user and login_user */
+.login-wrap,
+.register-wrap {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.login-form,
+.register-form {
+    background-image: linear-gradient(#e2bf54, #e2d764, #e2d764, #e2bf54);
+    border-radius: 10px;
+    padding: 15px 25px 30px;
+    margin: 0 auto;
+}
+.login-form h3,
+.register-form h3 {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+    display: block;
+    font-size: 19px;
+    font-weight: bold;
+    margin-block: 20px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-control {
+    overflow: visible;
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    visibility: visible;
+}
+.btn-login-wrap,
+.btn-register-wrap {
+    display: flex !important;
+}
+.btn-regsiter-now,
+.btn-login-now {
+    background: linear-gradient(#f6341e, #fd5855);
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 0;
+    /* margin: 0 auto !important;
+    display: flex !important; */
+    cursor: pointer;
+    margin: 10px;
+}
+/* php_administrator */
+.page-admin {
+    margin: 10px;
+}
+.table-bordered{
+    border: 1px solid #000000 ;
+    text-align: center;
+}
+th,td {
+    border: 1px solid #000000;
+}
+.btn_add_user{
+    padding: 10px;
+    text-decoration: none;
+}
+/* index.php */
+#listposts{
+    text-align: center;
+}
+#listposts a.page_item {
+    padding: 5px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+#listposts .page_item { 
+    margin-top: 10px;
+}
+input[type="text"] {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    height: 100%;
+}
